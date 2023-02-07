@@ -1,0 +1,14 @@
+css works from top to bottom
+
+em and rem---> taken from font-size and applies for padding,border,margin etc.,
+em--> parent tag:
+<body>--> font-size-->16px
+<div>--->2em=32px
+<p>--->2em=64px
+
+rem---> refers to direct root <html> tag
+html{
+font-size: 20px;
+}
+
+2rem refers to 40px;

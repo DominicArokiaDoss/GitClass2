@@ -1,0 +1,59 @@
+comment---> alt+shift+a
+format---> alt+shift+f
+
+word wrap--->
+word-break: break-all;
+
+margin & border affects the main width space
+padding affects the inner div width space
+
+display porperties:
+<block> & <inline>, <span> tag
+1. diplay-block;
+2. display-flex;
+3. display-inline;
+4. display-grid;
+5. display-inline-block;
+
+-------------------------------------------------------------------------------------------------------------------
+block level elements:
+1. are always start with a new line,  and the browser automaticallyadd some space( a margin before and after element)
+2. blocklevel element always take full width available
+eg: <p>, <h1>-<h6>, <div>, <br>, <fieldset>, <blockqoute>
+
+
+Inline elements:
+1. Does not start on a new line.
+2. only take as much width necessary
+eg: <span>, <a>, <i>, <b>, <label>
+
+<span> tag: 
+<span> tag is as same as <div> but <div> starts at new line, but <span> does not go for new line.
+span ---> <p>This is an inline span <span style="border: 1px solid black">Hello World</span> element inside a paragraph.</p> ---> O/P totally one line
+div ----> <p>This is an inline span <div style="border: 1px solid black">Hello World</div> element inside a paragraph.</p> -----> O/P totally three line
+both are different.
+
+file:///C:/Users/daroki266/VS%20codes/Html%20%26%20css/summa/1.html
+display properties:
+1. display: block;
+	default display value
+	go to next line
+	applies the margin values 
+       *margin values are collapsed	
+       *the element generates a block element box, generating line breaks both before and after the element when in the normal flow.
+
+2. display: flex;
+	next next div or tag by join without gap
+	refer: https://developer.mozilla.org/en-US/docs/Web/CSS/display
+
+3. display: inline;
+	Continue on the same line, does not start on new line.
+	apply margin for left & right ,does not applies the margin values for top & bottom.
+       *The element generates one or more inline element boxes that do not generate line breaks before or after themselves. In normal flow, the next element will be on the same line if there is space.
+ 
+
+4. display: inline-block;
+	on the same line and applies the margin values
+
+5. display:grid;
+	like block but margin values strictly applies
